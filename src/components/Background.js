@@ -5,13 +5,13 @@ function Background() {
 
     return(
         <>
-            <div className="bg-img1">
+            <div id="1" className="bg-img1">
                 <Header />
             </div>
-            <div className="bg-img"></div>
-            <div className="bg-img2"></div>
-            <div className="bg-img"></div>
-            <div className="bg-img3"></div>
+            <div id="2" className="bg-img"></div>
+            <div id="3" className="bg-img2"></div>
+            <div id="4" className="bg-img"></div>
+            <div id="5" className="bg-img3"></div>
         </>
     )
 }
