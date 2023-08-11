@@ -20,4 +20,3 @@ class User(db.Model, SerializerMixin):
     # Relationships
    
     # Serializer
-

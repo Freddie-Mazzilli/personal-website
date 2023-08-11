@@ -4,10 +4,10 @@ function Nav() {
 
     return(
         <>
-            <a href="#1">1</a>
-            <a href="#2">2</a>
-            <a href="#3">3</a>
-            <a href="#4">4</a>
+            <a href="#1">Back to Top</a>
+            <a href="#2">About Me</a>
+            <a href="#3">Skills</a>
+            <a href="#4">Project</a>
             <a href="#5">5</a>
         </>
     )
