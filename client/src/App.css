@@ -113,3 +113,8 @@ html {
   border-bottom: 3px solid #01ffff;
   justify-content: space-around;
 }
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
