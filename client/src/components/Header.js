@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/art-profile.svg"
 
 function Header() {
     
@@ -11,7 +12,11 @@ function Header() {
                 <p className="blurb">Leveraging my exceptional communication skills to discuss technical subjects with audiences of varying technical knowledge, I adeptly navigate the complexities of <span>project scoping</span> and seamlessly translate client requirements to our development team. This effective <span>collaboration</span> results in the creation of high-end products, meticulously tailored to <span>exceed expectations</span>.</p>
             </div>
             <div className="image-container">
-                <div className="image"></div>
+                <div className="image">
+                    <div className="mask">
+                        <img className="profile" src={profile} alt="hi" />
+                    </div>
+                </div>
             </div>
         </div>
     )
